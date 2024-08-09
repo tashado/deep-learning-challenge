@@ -28,3 +28,8 @@ To predict whether a applicant will be successful if funded by Alphabet Soup, an
     - Changed classification bins from 500 to 1000
     - Neurons change (16 to 100 for the 1st hidden layer, 4 to 50 for the 2nd hidden layer)
     - EPOCHS change from 25 to 150.
+
+# Summary
+In conclusion, optimisation techniques failed to increase the model's intial 72.43% accuracy score to the desired 75%. After atteps to change bins, neurons and EPOCHs, there were only small improvements to the accuracy score - a final 72.73%. 
+
+USe of a random forest algorithm may improve reuslts as it's robust against overgitting and to outliers and non-linear data, while also running efficiently on large databases.
